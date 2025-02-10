@@ -22,7 +22,7 @@ from PIL import Image
 # Set some module strings.
 __author__ = "zentrocdot"
 __copyright__ = "© Copyright 2025, zentrocdot"
-__version__ = "0.0.0.2"
+__version__ = "0.0.0.3"
 
 # Disable future warning.
 warnings.filterwarnings("ignore", category=FutureWarning)
@@ -120,7 +120,7 @@ class Image2Text:
     RETURN_TYPES = ("STRING", "STRING", "STRING",)
     RETURN_NAMES = ("answer", "clip normal", "clip long",)
     FUNCTION = "answer_a_question"
-    CATEGORY = "🚀 Image To Prompt"
+    CATEGORY = "👀 Image To Prompt"
     DESCRIPTION = "Upscaling using RealESRGAN."
     OUTPUT_NODE = True
 
