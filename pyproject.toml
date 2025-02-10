@@ -1,5 +1,5 @@
 [project]
-name = "ComfyUI-RealESRGAN_Upscaler"
+name = "ComfyUI-Simple_Image_To_Prompt"
 description = "ComfyUI-Simple_Image_To_Prompt"
 version = "0.0.0.1"
 license = {file = "LICENSE"}
