@@ -22,6 +22,16 @@ the Image To Prompt feature of Moondream.</p>
 
 # Installation
 
+## Model Directory
+
+To be compatible with ComfyUI there should be a directory created in the ComfyUI directory
+
+<pre>moondream</pre>
+
+In this directory the Moondream models should be placed.
+
+## Node Installation
+
 <p align="justify">Use the ComfyUI Manager for the installation.
 Search for my nick 'zentrocdot' or search for 'ComfyUI-Simple_Image_To_Prompt'.</p>
 
