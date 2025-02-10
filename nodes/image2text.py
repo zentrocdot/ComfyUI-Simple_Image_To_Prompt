@@ -22,7 +22,7 @@ from PIL import Image
 # Set some module strings.
 __author__ = "zentrocdot"
 __copyright__ = "© Copyright 2025, zentrocdot"
-__version__ = "0.0.0.1"
+__version__ = "0.0.0.2"
 
 # Disable future warning.
 warnings.filterwarnings("ignore", category=FutureWarning)
@@ -81,15 +81,21 @@ def answer_question(model, image, prompt):
     # Return the results.
     return answer, caption_s, caption_n
 
+# Set notLOADED to True.
+notLOADED = True
+
+# Set loaded model.
+LOADED_MODEL = None
+
 # ++++++++++++++++
 # Class Image2Text
 # ++++++++++++++++
 class Image2Text:
     '''Image2Text.'''
 
-    def __init__(self):
-        self.selected_model = None
-        self.model_loaded = False
+    #def __init__(self):
+    #    self.selected_model = None
+    #    self.model_loaded = False
 
     @classmethod
     def IS_CHANGED(cls, *args, **kwargs):
@@ -120,6 +126,7 @@ class Image2Text:
 
     def answer_a_question(self, image, models):
         '''Answer a question.'''
+        global notLOADED, MODEL_LOADED
         # Set the model.
         MOONDREAM_MODEL = '/'.join([str(MODELS_PATH), models])
         # Set the device to CPU. Set also the used dtype.
@@ -132,18 +139,23 @@ class Image2Text:
         # Print output into the terminal window.
         print("Load Image To Prompt model into memory.")
         # Load model.
-        if self.model_loaded is False:
-            with ClearCache():
+        with ClearCache():
+            if notLOADED:
                 try:
                     # Load the model once a time.
-                    self.selected_model = md.vl(model=MOONDREAM_MODEL)
-                    self.model_loaded = True
+                    MODEL_LOADED = md.vl(model=MOONDREAM_MODEL)
                     # Print output into the terminal window.
                     print("Image To Prompt model succesful loaded.")
+                    # Set notLoaded to False.
+                    notLOADED = False
                 except RuntimeError as err:
-                    self.model_loaded = False
-                    return "", "", ""
+                    # Print error message.
+                    print("RuntimeError. Could not load model!")
+                    # Set notLoaded to False.
+                    notLOADED = True
+                    # Return None.
+                    return None, None, None
         # Ask question.
-        answer, clip_normal, clip_long = answer_question(self.selected_model, image, "What does the image show?")
+        answer, clip_normal, clip_long = answer_question(MODEL_LOADED, image, "What does the image show?")
         # Return the answer and clips.
         return (answer, clip_normal, clip_long,)
