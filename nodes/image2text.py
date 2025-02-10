@@ -22,7 +22,7 @@ from PIL import Image
 # Set some module strings.
 __author__ = "zentrocdot"
 __copyright__ = "© Copyright 2025, zentrocdot"
-__version__ = "0.0.0.3"
+__version__ = "0.0.0.4"
 
 # Disable future warning.
 warnings.filterwarnings("ignore", category=FutureWarning)
@@ -118,7 +118,7 @@ class Image2Text:
 
     # Set the ComfyUI related variables.
     RETURN_TYPES = ("STRING", "STRING", "STRING",)
-    RETURN_NAMES = ("answer", "clip normal", "clip long",)
+    RETURN_NAMES = ("answer", "caption (short)", "caption (normal)",)
     FUNCTION = "answer_a_question"
     CATEGORY = "👀 Image To Prompt"
     DESCRIPTION = "Upscaling using RealESRGAN."
