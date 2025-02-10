@@ -49,7 +49,7 @@ class ShowData:
     INPUT_IS_LIST = (True,)
     OUTPUT_NODE = True
 
-    CATEGORY = "🚀 Image To Prompt"
+    CATEGORY = "👀 Image To Prompt"
     FUNCTION = "process_data"
 
     def process_data(self, input, data, unique_id):
