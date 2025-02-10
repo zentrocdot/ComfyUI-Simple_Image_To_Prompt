@@ -24,18 +24,18 @@ the Image To Prompt feature of Moondream.</p>
 
 ## Model Directory
 
-To be compatible with ComfyUI there should be a directory created in the ComfyUI directory
+<p align="justify">To be compatible with ComfyUI there should be a directory created in the ComfyUI directory</p>
 
 <pre>moondream</pre>
 
-In this directory the Moondream models should be placed.
+<p align="justify">In this directory the Moondream models should be placed.</p>
 
 ## Node Installation
 
 <p align="justify">Use the ComfyUI Manager for the installation.
 Search for my nick 'zentrocdot' or search for 'ComfyUI-Simple_Image_To_Prompt'.</p>
 
-Alternative one can install the node from within the directory <code>custom_nodes</code> by
+<p align="justify">Alternative one can install the node from within the directory <code>custom_nodes</code> by</p>
 
 ```
 git clone https://github.com/zentrocdot/ComfyUI-Simple_Image_To_Prompt
@@ -43,11 +43,11 @@ git clone https://github.com/zentrocdot/ComfyUI-Simple_Image_To_Prompt
 
 # Troubleshooting
 
-If one get an error message like this 
+<p align="justify">If one get an error message like this</p> 
 
 <code>ImportError: tokenizers>=0.21,<0.22 is required for a normal functioning of this module, but found tokenizers==0.20.3.</code>
 
-after installing this node then do this
+<p align="justify">after installing this node then do this</p> 
 
 ```pip install -U transformers```
 
