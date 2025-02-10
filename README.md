@@ -10,5 +10,5 @@ If one get an error message like this
 
 after installing this node then do this
 
-<code>pip install transformers -U</code>
+<code>pip install -U transformers</code>
 
