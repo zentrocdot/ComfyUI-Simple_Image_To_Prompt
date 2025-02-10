@@ -19,3 +19,5 @@ after installing this node then do this
 [2] https://moondream.ai/playground
 
 [3] https://moondream.ai/
+
+[4] https://github.com/vikhyat/moondream
