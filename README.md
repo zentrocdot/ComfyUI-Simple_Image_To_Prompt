@@ -17,8 +17,6 @@ Search for my nick 'zentrocdot' or search for 'ComfyUI-Simple_Image_To_Prompt'.<
 
 Alternative one can install the node from within the directory <code>custom_nodes</code> by
 
-<pre>git clone https://github.com/zentrocdot/ComfyUI-Simple_Image_To_Prompt</pre>
-
 ```
 git clone https://github.com/zentrocdot/ComfyUI-Simple_Image_To_Prompt
 ```
@@ -31,7 +29,7 @@ If one get an error message like this
 
 after installing this node then do this
 
-<code>pip install -U transformers</code>
+```pip install -U transformers```
 
 # Open Issue
 
