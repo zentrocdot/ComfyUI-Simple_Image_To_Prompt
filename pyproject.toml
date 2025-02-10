@@ -1,14 +1,14 @@
 [project]
 name = "ComfyUI-RealESRGAN_Upscaler"
-description = "ComfyUI-RealESRGAN_Upscaler."
-version = "0.0.0.9"
+description = "ComfyUI-Simple_Image_To_Prompt"
+version = "0.0.0.1"
 license = {file = "LICENSE"}
 
 [project.urls]
-Repository = "https://github.com/zentrocdot/ComfyUI-RealESRGAN_Upscaler"
+Repository = "https://github.com/zentrocdot/ComfyUI-Simple_Image_To_Prompt"
 #  Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
 PublisherId = "zentrocdot"
-DisplayName = "ComfyUI_realESRGAN_Upscaler"
-Icon = "https://github.com/zentrocdot/ComfyUI_RealEsrgan_Upscaler/blob/main/images/original_logo_512x512.png"
+DisplayName = "ComfyUI-Simple_Image_To_Promptr"
+Icon = "https:///github.com/zentrocdot/ComfyUI-Simple_Image_To_Prompt/blob/main/images/original_logo_512x512.png"
