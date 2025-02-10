@@ -17,7 +17,7 @@ Search for my nick 'zentrocdot' or search for 'ComfyUI-Simple_Image_To_Prompt'.<
 
 Alternative one can install the node from within the directory <code>custom_nodes</code> by
 
-<code>git clone https://github.com/zentrocdot/ComfyUI-Simple_Image_To_Prompt</code>
+<pre>git clone https://github.com/zentrocdot/ComfyUI-Simple_Image_To_Prompt</pre>
 
 # Troubleshooting
 
