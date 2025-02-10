@@ -5,7 +5,7 @@ from .nodes.image2text import *
 from .nodes.show_data import *
 
 NODE_CLASS_MAPPINGS = { 
-    "🚀 Image To Prompt": Image2Text,
+    "👁️ Image To Prompt": Image2Text,
     "🧳 Show Data": ShowData,
     }
     
