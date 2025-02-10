@@ -12,7 +12,7 @@ the Image To Prompt feature of Moondream.</p>
 
 # Workflow Preview
 
-<img src="./images/workflow_preview.png" alt="workflow preview" width="512">
+<img src="./images/workflow_preview.png" alt="workflow preview" width="1024">
 <p><i>Figure 2: Example workflow preview</i></p>
 
 # Installation
