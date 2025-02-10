@@ -1,6 +1,23 @@
-# Do-Do
+> [!IMPORTANT]  
+> <p align="justify">🚧 This documentation is still under 
+> construction. The development of the upscaler is a ongoing 
+> activity. There might be small differenes in comparison of 
+> node and documentation.</p>
 
-Write the documentation.
+# Preface
+
+<p align="justify">This node is one result of my investigation
+what one is able to do with Moondream. One important thing is
+the Image To Prompt feature of Moondream.</p>
+
+# Installation
+
+<p align="justify">Use the ComfyUI Manager for the installation.
+Search for my nick 'zentrocdot' or search for 'ComfyUI-Simple_Image_To_Prompt'.</p>
+
+Alternative one can install the node from within the directory <code>custom_nodes</code> by
+
+<code>git clone https://github.com/zentrocdot/ComfyUI-Simple_Image_To_Prompt</code>
 
 # Troubleshooting
 
@@ -11,6 +28,14 @@ If one get an error message like this
 after installing this node then do this
 
 <code>pip install -U transformers</code>
+
+# Open Issue
+
+<p align="justify">One open issue is how to unload a loaded model.</p>
+
+# Do-Do
+
+Improvement of the documentation.
 
 # References
 
