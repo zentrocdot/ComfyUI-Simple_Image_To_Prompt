@@ -112,14 +112,22 @@ git clone https://github.com/zentrocdot/ComfyUI-Simple_Image_To_Prompt
 
 # Open Issue
 
-<p align="justify">One open issue is how to unload a loaded model.</p>
+<p align="justify">The one and only open issue is how to unload a loaded
+model. Memory is locked after loading a model independend if the workflow
+with the node is open or closed.</p>
 
 # Do-Do
 
-Improvement of the documentation. The open issue that I did not found a way to 
-unload a loaded model makes much more test runs necessary.
+Improvement of the documentation. 
 
-The algorithm I found works well for the moment. Some approaches before that not.
+The open issue that I did not found a way to unload a loaded model makes 
+much more test runs necessary.
+
+The algorithm I found works well for the moment. Some approaches I tried
+before not. This has to be tested if this approach works all the time.
+
+Dependencies while installation have to be checked to prevent the error message 
+from the last section. In the past I solved this problem for my other programs.
 
 # References
 
