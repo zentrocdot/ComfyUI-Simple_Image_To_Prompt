@@ -19,6 +19,10 @@ Alternative one can install the node from within the directory <code>custom_node
 
 <pre>git clone https://github.com/zentrocdot/ComfyUI-Simple_Image_To_Prompt</pre>
 
+```
+git clone https://github.com/zentrocdot/ComfyUI-Simple_Image_To_Prompt
+```
+
 # Troubleshooting
 
 If one get an error message like this 
