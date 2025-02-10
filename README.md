@@ -15,3 +15,7 @@ after installing this node then do this
 # References
 
 [1] https://github.com/vikhyat/moondream/tree/main/clients/python
+
+[2] https://moondream.ai/playground
+
+[3] https://moondream.ai/
