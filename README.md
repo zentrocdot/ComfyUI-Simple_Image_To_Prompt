@@ -12,7 +12,7 @@ the Image To Prompt feature of Moondream.</p>
 
 # Node Preview
 
-<img src="./images/node_preview.png" alt="node preview" width="1024">
+<img src="./images/node_preview.png" alt="node preview" width="512">
 <p><i>Figure 1: Node preview</i></p>
 
 # Workflow Preview
