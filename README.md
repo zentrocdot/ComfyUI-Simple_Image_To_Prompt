@@ -12,3 +12,6 @@ after installing this node then do this
 
 <code>pip install -U transformers</code>
 
+# References
+
+[1] https://github.com/vikhyat/moondream/tree/main/clients/python
