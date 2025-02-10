@@ -32,6 +32,10 @@ In the future I need something like a download node, which should be offer the
 possibility to download and monitor the process of the download in the node and
 not in the terminal window.
 
+# Prerequisites
+
+https://huggingface.co/vikhyatk/moondream2/resolve/9dddae84d54db4ac56fe37817aeaeb502ed083e2/moondream-2b-int8.mf.gz
+
 # Node Preview
 
 Figure 1 shows a preview of the node. Over the connector on
