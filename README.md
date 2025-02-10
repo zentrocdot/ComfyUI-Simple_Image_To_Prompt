@@ -45,8 +45,21 @@ on the right side have as output
 <img src="./images/node_preview.png" alt="node preview" width="512">
 <p><i>Figure 1: Node preview</i></p>
 
+The current Version allows to ask a question which is not given by
+the fixed one from the implemented source code
+
+<code>What does the image show?</code>
+
 Like I have done it in the example workflow one should output all three
 to get the best answer or caption for each case.
+
+One can ask what one likes to do e.g.
+
++ What do we see in the image?
++ What is the art style of the image?
++ What is the story behind the image?
+
+and so on.
 
 # Workflow Preview
 
