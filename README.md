@@ -34,7 +34,17 @@ not in the terminal window.
 
 # Prerequisites
 
+Download the Moon dream model
+
 https://huggingface.co/vikhyatk/moondream2/resolve/9dddae84d54db4ac56fe37817aeaeb502ed083e2/moondream-2b-int8.mf.gz
+
+and unzip it to
+
+a folder called moondream to be created in the directory tree
+
+ComfyUI/models
+
+In this directory all other models from checkpoint over LoRAs to upscaler models. So it is the best way to place a model.
 
 # Node Preview
 
