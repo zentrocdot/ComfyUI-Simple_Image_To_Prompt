@@ -12,25 +12,25 @@ the Image To Prompt feature of Moondream.</p>
 
 # Motivation
 
-Image To Prompt can be used in different ways. One can get an
-idea how to change or improve a Prompt by suggestions from Image
-To Prompt. It is also possible to get informations about the art
-and style of the image. This can be helpful to get the right key
-words for further work.
+<p align="justify">Image To Prompt can be used in different ways. 
+One can get an idea how to change or improve a Prompt by suggestions 
+from Image To Prompt. It is also possible to get informations about 
+the art and style of the image. This can be helpful to get the right 
+key words for further work.</p>
 
 # Introductory Words
 
-The node is using the CPU and not the GPU. First way, the proposed one,
-can be done with Moon dream directly. For the second way one needs 
-Hugging face.
+<p align="justify">The node is using the CPU and not the GPU. First 
+way, the proposed one, can be done with Moon dream directly. For the
+second way one needs Huggingface.</p>
 
-In the first versions of the node the model cannot be selected. At the moment
-there are four models available. In one of the following versions I will add the
-support for all of the four models.
+<p align="justify">In the first versions of the node the model cannot
+be selected. At the moment there are four models available. In one of
+the following versions I will add the support for all of the four models.</p>
 
-In the future I need something like a download node, which should be offer the 
-possibility to download and monitor the process of the download in the node and
-not in the terminal window.
+<p align="justify">In the future I need something like a download node,
+which should be offer the possibility to download and monitor the process
+of the download in the node and not in the terminal window.</p>
 
 # Prerequisites
 
