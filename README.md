@@ -68,7 +68,7 @@ the fixed one from the implemented source code</p>
 <p align="justify">Like I have done it in the example workflow one should output all three
 to get the best answer or caption for each case.</p>
 
-One can ask what one likes to do e.g.
+<p align="justify">One can ask what one likes to do e.g.</p>
 
 + What do we see in the image?
 + What is the art style of the image?
@@ -149,14 +149,26 @@ problem if you want to use Moondream in this way.</p>
 
 # Do-Do
 
-<p align="justify">Improvement of the documentation.</p> 
+<p align="justify">Improvement of this documentation.</p> 
 
 <p align="justify">The open issue that I did not found a way to unload
 a loaded model makes much more test runs necessary.</p>
 
-<p align="justify">The algorithm I found works well for the moment. 
-Some approaches I tried before not. This has to be tested if this approach
-works all the time.</p>
+<p align="justify">The algorithm I found for Image To Prompt using Moondream
+works well for the moment. Some other approaches I tried before not. It has
+to be tested if the current approach works well under different conditions all
+the time.</p>
+
+# Conclusion
+
+<p align="justify">I am on the way to finishing the work on this node. The
+node does what the node should be. For my work the node in the current state
+is sufficient.</p> 
+
+# Remark
+
+<p align="justify">If one needs an improvment of this node, feel free to make
+a donation. Tell me what you need. I will take a look if it is possible. </p> 
 
 # References
 
