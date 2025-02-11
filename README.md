@@ -42,7 +42,7 @@ and unzip it to
 
 a folder called moondream to be created in the directory tree
 
-ComfyUI/models
+<pre>ComfyUI/models</pre>pre>
 
 In this directory all other models from checkpoint over LoRAs to upscaler models. So it is the best way to place a model.
 
