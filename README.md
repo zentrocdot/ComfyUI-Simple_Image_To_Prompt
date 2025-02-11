@@ -1,8 +1,8 @@
 > [!IMPORTANT]  
-> <p align="justify">🚧 This documentation is still under 
-> construction. The development of the node is a little bit
-> ongoing. There might be small differenes in comparison of 
-> node and documentation.</p>
+> <p align="justify">🚧 This documentation is still under construction.
+> Parts of the node are still under development. There may therefore be
+> minor differences between the node itself and the documentation for
+> the node. The documentation is also not yet complete.</p>
 
 # Preface
 
