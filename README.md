@@ -147,6 +147,9 @@ workflow with the node is open or closed.</p>
 <p align="justify">Not being able to unload the model from memory is a serious
 problem if you want to use Moondream in this way.</p>
 
+<p align="justify">In the latest version of the node, I am testing a new approach
+for the memory management. This looks very promising for the memory plumbing problem.</p>
+
 # Do-Do
 
 <p align="justify">Improvement of this documentation.</p> 
