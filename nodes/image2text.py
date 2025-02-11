@@ -4,6 +4,10 @@
 # pylint: disable=invalid-name
 # pylint: disable=unused-argument
 # pylint: disable=unused-variable
+# pylint: disable=import-error
+#
+# See for memory management:
+# https://github.com/kijai/ComfyUI-moondream
 
 # Import the Python modules.
 import warnings
@@ -14,6 +18,7 @@ import gc
 import os
 
 # Import the third party Python modules.
+import comfy.model_management
 import moondream as md
 import torch
 import numpy as np
@@ -22,7 +27,7 @@ from PIL import Image
 # Set some module strings.
 __author__ = "zentrocdot"
 __copyright__ = "© Copyright 2025, zentrocdot"
-__version__ = "0.0.0.4"
+__version__ = "0.0.0.6"
 
 # Disable future warning.
 warnings.filterwarnings("ignore", category=FutureWarning)
@@ -112,6 +117,7 @@ class Image2Text:
         return {
             "required": {
                 "image": ("IMAGE",),
+                "prompt": ("STRING", {"multiline": True, "default": "What does the image show?"}),
                 "models": (MODS, {}),
             }
         }
@@ -124,14 +130,16 @@ class Image2Text:
     DESCRIPTION = "Upscaling using RealESRGAN."
     OUTPUT_NODE = True
 
-    def answer_a_question(self, image, models):
+    def answer_a_question(self, image, models, prompt):
         '''Answer a question.'''
         global notLOADED, MODEL_LOADED
         # Set the model.
         MOONDREAM_MODEL = '/'.join([str(MODELS_PATH), models])
         # Set the device to CPU. Set also the used dtype.
-        device = torch.device("cpu")
-        dtype = torch.float32
+        # device = torch.device("cpu")
+        # dtype = torch.float32
+        device = comfy.model_management.get_torch_device()
+        dtype = torch.float16 if comfy.model_management.should_use_fp16() and not comfy.model_management.is_device_mps(device) else torch.float32
         # Set the revision.
         LATEST_REVISION = "2025-01-09"
         # Set the model id.
@@ -156,6 +164,8 @@ class Image2Text:
                     # Return None.
                     return None, None, None
         # Ask question.
-        answer, clip_normal, clip_long = answer_question(MODEL_LOADED, image, "What does the image show?")
+        if prompt == "" or prompt is None:
+            prompt = "What does the image show?"
+        answer, clip_normal, clip_long = answer_question(MODEL_LOADED, image, prompt)
         # Return the answer and clips.
         return (answer, clip_normal, clip_long,)
