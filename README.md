@@ -49,9 +49,9 @@ over LoRAs to upscaler models. So it is the best way to place a model.</p>
 
 # Node Preview
 
-Figure 1 shows a preview of the node. Over the connector on
-the left side one can load the image of interest. The connectors 
-on the right side have as output
+<p align="justify">Figure 1 shows a preview of the node. Over the 
+connector on the left side one can load the image of interest. The
+connectors on the right side have as output</p>
 
 * Answer (to a question or Prompt)
 * Short caption
@@ -60,13 +60,13 @@ on the right side have as output
 <img src="./images/node_preview.png" alt="node preview" width="512">
 <p><i>Figure 1: Node preview</i></p>
 
-The current Version allows to ask a question which is not given by
-the fixed one from the implemented source code
+<p align="justify">The current Version allows to ask a question which is not given by
+the fixed one from the implemented source code</p>
 
 <code>What does the image show?</code>
 
-Like I have done it in the example workflow one should output all three
-to get the best answer or caption for each case.
+<p align="justify">Like I have done it in the example workflow one should output all three
+to get the best answer or caption for each case.</p>
 
 One can ask what one likes to do e.g.
 
@@ -78,9 +78,9 @@ and so on.
 
 # Workflow Preview
 
-Figure 2 shows the simple case of a workflow. From my point of view it
+<p align="justify">Figure 2 shows the simple case of a workflow. From my point of view it
 is not helpful to create in an automatic way new images from the given 
-answer or caption.
+answer or caption.</p>
 
 <img src="./images/workflow_preview.png" alt="workflow preview" width="1024">
 <p><i>Figure 2: Example workflow preview</i></p>
