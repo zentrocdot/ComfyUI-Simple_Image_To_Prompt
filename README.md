@@ -164,3 +164,5 @@ works all the time.</p>
 [3] https://moondream.ai/
 
 [4] https://github.com/vikhyat/moondream
+
+[5] https://www.copus.io/work/474668694161482d83005265199b4995?spaceId=zentrocdotsposts
