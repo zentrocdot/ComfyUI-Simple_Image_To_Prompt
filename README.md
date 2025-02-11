@@ -85,14 +85,14 @@ answer or caption.</p>
 <img src="./images/workflow_preview.png" alt="workflow preview" width="1024">
 <p><i>Figure 2: Example workflow preview</i></p>
 
-Read the next section why I do not propose to use a automatic image generation.
+<p align="justify">Read the next section why I do not propose to use a automatic image generation.</p>
 
 What the Workflow/Node Does
 
-Each time one let run the workflow Moon dream is generating a new answer. 
-No two answers will be the same. This way it make sense to run the workflow
-different times untill one get an answer which one likes more than an other
-answer.
+<p align="justify">Each time one let run the workflow Moon dream is generating
+a new answer. No two answers will be the same. This way it make sense to run the
+workflow different times untill one get an answer which one likes more than an
+other answer.</p>
 
 # Installation
 
@@ -143,6 +143,9 @@ this error should no longer occur.</p>
 <p align="justify">The one and only open issue is how to unload a loaded
 Moondream model. Memory is locked after loading a model independend if the
 workflow with the node is open or closed.</p>
+
+<p align="justify">Not being able to unload the model from memory is a serious
+problem if you want to use Moondream in this way.</p>
 
 # Do-Do
 
