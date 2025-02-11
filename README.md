@@ -40,11 +40,12 @@ https://huggingface.co/vikhyatk/moondream2/resolve/9dddae84d54db4ac56fe37817aeae
 
 and unzip it to
 
-a folder called moondream to be created in the directory tree
+<p align="justify">a folder called moondream to be created in the directory tree</p>
 
-<pre>ComfyUI/models</pre>pre>
+<pre>ComfyUI/models</pre>
 
-In this directory all other models from checkpoint over LoRAs to upscaler models. So it is the best way to place a model.
+<p align="justify">In this directory all other models from checkpoint
+over LoRAs to upscaler models. So it is the best way to place a model.</p>
 
 # Node Preview
 
