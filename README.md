@@ -116,32 +116,43 @@ git clone https://github.com/zentrocdot/ComfyUI-Simple_Image_To_Prompt
 
 # Troubleshooting
 
+## Error Message
+
 <p align="justify">If one get an error message like this</p> 
 
 <code>ImportError: tokenizers>=0.21,<0.22 is required for a normal functioning of this module, but found tokenizers==0.20.3.</code>
 
-<p align="justify">after installing this node then do this</p> 
+<p align="justify">one can fix this error message easily.</p>
+
+## Error Fixing 
+  
+<p align="justify">After installing of this node one has to do</p> 
 
 ```pip install -U transformers```
+
+<p align="justify">and the error message is gone.</p> 
+
+## General Solution
+
+<p align="justify">By changing the <code>requirements.txt</code>
+this error should no longer occur.</p> 
 
 # Open Issue
 
 <p align="justify">The one and only open issue is how to unload a loaded
-model. Memory is locked after loading a model independend if the workflow
-with the node is open or closed.</p>
+Moondream model. Memory is locked after loading a model independend if the
+workflow with the node is open or closed.</p>
 
 # Do-Do
 
-Improvement of the documentation. 
+<p align="justify">Improvement of the documentation.</p> 
 
-The open issue that I did not found a way to unload a loaded model makes 
-much more test runs necessary.
+<p align="justify">The open issue that I did not found a way to unload
+a loaded model makes much more test runs necessary.</p>
 
-The algorithm I found works well for the moment. Some approaches I tried
-before not. This has to be tested if this approach works all the time.
-
-Dependencies while installation have to be checked to prevent the error message 
-from the last section. In the past I solved this problem for my other programs.
+<p align="justify">The algorithm I found works well for the moment. 
+Some approaches I tried before not. This has to be tested if this approach
+works all the time.</p>
 
 # References
 
