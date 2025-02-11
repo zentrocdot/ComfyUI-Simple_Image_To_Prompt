@@ -1,5 +1,5 @@
 moondream==0.0.6
 torch>=1.7
-numpy
+numpy==1.26.4
 Pillow
 tokenizers>=0.21
