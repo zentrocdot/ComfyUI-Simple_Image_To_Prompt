@@ -6,9 +6,9 @@
 
 # Preface
 
-<p align="justify">This node is one result of my investigation
-what one is able to do with Moondream. One important thing is
-the Image To Prompt feature of Moondream.</p>
+<p align="justify">This node is one result of my investigation what one
+is able to do with Moondream. One important thing for what one can use
+Moondream is the Image To Prompt feature.</p>
 
 # Motivation
 
