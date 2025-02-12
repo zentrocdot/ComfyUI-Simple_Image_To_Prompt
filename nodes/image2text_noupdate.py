@@ -92,24 +92,15 @@ notLOADED = True
 # Set loaded model.
 LOADED_MODEL = None
 
-# ++++++++++++++++
-# Class Image2Text
-# ++++++++++++++++
-class Image2Text:
+# +++++++++++++++++++++++++
+# Class Image2Text_NoUpdate
+# +++++++++++++++++++++++++
+class Image2Text_NoUpdate:
     '''Image2Text.'''
 
     #def __init__(self):
     #    self.selected_model = None
     #    self.model_loaded = False
-
-    @classmethod
-    def IS_CHANGED(cls, *args, **kwargs):
-        '''Class method IS_CHNAGED.'''
-        #m = hashlib.sha256().update(str(time.time()).encode("utf-8"))
-        m = hashlib.sha256()
-        bytes_string = str(time.time()).encode("utf-8")
-        m.update(bytes_string)
-        return m.digest().hex()
 
     @classmethod
     def INPUT_TYPES(cls):
