@@ -115,6 +115,19 @@ Search for my nick 'zentrocdot' or search for 'ComfyUI-Simple_Image_To_Prompt'.<
 git clone https://github.com/zentrocdot/ComfyUI-Simple_Image_To_Prompt
 ```
 
+# Limitations
+
+I was asked for a different functionality. The node in its origin produces 
+from run to run an new answer and a new caption. I hat to program this feature.
+Somebody asked if I can make this fix. That results in my first an old node an
+the new one I am proposing.
+
+The Node 'No Update' is not changing as long nothing changes beginning from the image 
+over settings to the question.
+
+I tested both nodes and have to say, that one can not chanbge the node without restarting
+ComfyUI. This is the problem that I cannot unload a loaded model.
+
 # Troubleshooting
 
 ## Error Message
