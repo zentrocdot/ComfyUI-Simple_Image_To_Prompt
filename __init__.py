@@ -2,6 +2,7 @@
 
 # Import the Python modules.
 from .nodes.image2text import *
+from .nodes.image2text_noupdate import *
 from .nodes.show_data import *
 
 NODE_CLASS_MAPPINGS = { 
