@@ -87,7 +87,7 @@ answer or caption.</p>
 
 <p align="justify">Read the next section why I do not propose to use a automatic image generation.</p>
 
-What the Workflow/Node Does
+## What the Workflow/Node Does
 
 <p align="justify">Each time one let run the workflow Moon dream is generating
 a new answer. No two answers will be the same. This way it make sense to run the
