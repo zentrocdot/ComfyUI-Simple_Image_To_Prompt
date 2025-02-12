@@ -21,11 +21,7 @@ class AnyType(str):
 anyType = AnyType("*")
 
 def updateDataWidget(node, widget, text):
-    '''Raises an event to update a widget's data.
-    '''
-    # It is my understanding that this is supposed to work via the
-    # "ui" return value, but that appears to be no longer the case
-    # in the latest version of ComfyUI. credits: exectails
+    '''Raises an event to update a widget's data.'''
     PromptServer.instance.send_sync("zentrocdot.data_updater.node_processed",
                                     {"node": node, "widget": widget, "text": text})
 
