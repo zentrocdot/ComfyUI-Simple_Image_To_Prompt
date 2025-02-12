@@ -21,7 +21,7 @@ key words for further work.</p>
 # Introductory Words
 
 <p align="justify">The node is using the CPU and not the GPU. First 
-way, the proposed one, can be done with Moon dream directly. For the
+way, the proposed one, can be done with Moondream directly. For the
 second way one needs Huggingface.</p>
 
 <p align="justify">In the first versions of the node the model cannot
