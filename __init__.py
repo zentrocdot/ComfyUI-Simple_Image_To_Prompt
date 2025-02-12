@@ -6,7 +6,7 @@ from .nodes.show_data import *
 
 NODE_CLASS_MAPPINGS = { 
     "👁️ Image To Prompt": Image2Text,
-    "👁️ Image To Prompt (NO UPDATE)": Image2Text_noupdate,
+    "👁️ Image To Prompt (NO UPDATE)": Image2Text_NoUpdate,
     "🧳 Show Data": ShowData,
     }
     
