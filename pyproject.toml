@@ -1,7 +1,7 @@
 [project]
 name = "ComfyUI-Simple_Image_To_Prompt"
 description = "ComfyUI simple Image To Prompt node."
-version = "0.0.0.7"
+version = "0.0.0.8"
 license = {file = "LICENSE"}
 
 [project.urls]
